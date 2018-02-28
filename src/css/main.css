@@ -1,0 +1,6 @@
+#top-part .social-icons img {
+  max-width: 3.125em;
+  height: auto; }
+
+nav.navbar .collapse ul li a {
+  text-transform: uppercase; }
