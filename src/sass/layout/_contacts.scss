@@ -1,0 +1,20 @@
+#contacts {
+    font-family: "Museo3";
+    h1 {
+        font-size: em(50);
+        color: $mainTextColor;
+        text-transform: uppercase;
+    }
+    img {
+        max-width: em(150);
+        height: auto;
+    }
+    ul {
+        li {
+            a {
+                color: $mainTextColor;
+                font-size: em(20);
+            }
+        }
+    }
+}
