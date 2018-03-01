@@ -135,6 +135,17 @@ header {
       max-width: 10.625em;
       height: auto; }
 
+#services h1 {
+  font-family: "Museo3";
+  color: #004d80;
+  text-transform: uppercase;
+  font-size: 3.125em; }
+
+#services p {
+  font-family: "MuseoSansCyrl";
+  color: #004d80;
+  font-size: 1.5625em; }
+
 #services .first-item .text {
   background: url(../img/slideItem-1.png) center; }
 
@@ -144,7 +155,23 @@ header {
 #services .third-item .text {
   background: url(../img/slideItem-3.png) center; }
 
+#services .slide-item-title h3 {
+  font-size: 1.25em;
+  text-align: center;
+  color: #ff0655;
+  background-color: #e8f7fe;
+  margin-bottom: 0; }
+
+#services .text {
+  color: #fff; }
+  #services .text h4 {
+    font-size: 1.25em; }
+  #services .text ul li {
+    font-size: 0.9375em;
+    line-height: 2; }
+
 #services #servicesCarousel {
+  font-family: "Museo3";
   margin: 0 auto; }
   #services #servicesCarousel .carousel-item-next,
   #services #servicesCarousel .carousel-item-prev,

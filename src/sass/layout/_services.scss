@@ -1,4 +1,15 @@
 #services {
+    h1 {
+        font-family: "Museo3";
+        color: $mainTextColor;
+        text-transform: uppercase;
+        font-size: em(50)
+    }
+    p {
+        font-family: "MuseoSansCyrl";
+        color: $mainTextColor;
+        font-size: em(25);
+    }
     .first-item {
         .text {
             background: url(../img/slideItem-1.png) center;
@@ -14,7 +25,29 @@
             background: url(../img/slideItem-3.png) center;
         }
     }
+    .slide-item-title {
+        h3 {
+            font-size: em(20);
+            text-align: center;
+            color: $sliderTilte;
+            background-color: $bodyBg;
+            margin-bottom: 0;
+        }
+    }
+    .text {
+        color: #fff;
+        h4 {
+            font-size: em(20);
+        }
+        ul {
+            li {
+                font-size: em(15);
+                line-height: 2;
+            }
+        }
+    }
     #servicesCarousel {
+        font-family: "Museo3";
         margin: 0 auto;
         .carousel-item-next,
         .carousel-item-prev,
