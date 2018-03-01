@@ -1,0 +1,57 @@
+#equipment {
+    font-family: "Museo3";
+    .indicators {
+        button.active {
+            &:focus {
+                background-color: unset;
+                color: $sliderTilte;
+                text-decoration: underline;
+                box-shadow: unset;
+            }
+        }
+    }
+    h1 {
+        font-size: em(50);
+        color: $mainTextColor;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: em(37);
+        color: $mainTextColor;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: em(18);
+        text-transform: uppercase;
+        color: $sliderTilte;
+    }
+    ul {
+        li {
+            margin-top: 15px;
+            font-size: em(15);
+            text-transform: uppercase;
+            color: $mainTextColor;
+            display: flex;
+            align-items: center;
+            img {
+                max-width: 40px;
+                margin-right: 10px;
+            }
+        }
+    }
+    #eqCarousel {
+        .carousel-item-next,
+        .carousel-item-prev,
+        .carousel-item.active {
+            display: flex;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 9%;
+            i {
+                color: $mainTextColor;
+                font-size: em(80);
+            }
+        }
+    }
+}

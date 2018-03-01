@@ -82,7 +82,7 @@
     <header>
         <div class="container-fluid px-0">
             <!-- START CAROUSEL -->
-            <div id="headerCarousel" class="carousel slide" data-ride="false">
+            <div id="headerCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     <li class="mr-3" data-target="#headerCarousel" data-slide-to="0" class="active"></li>
                     <li class="mr-3" data-target="#headerCarousel" data-slide-to="1"></li>
@@ -182,7 +182,7 @@
             <p class="text-center w-lg-75 w-xl-75 m-auto pt-3 pb-5">Современная защита Вашей собственности, благодарю нашему быстрому, мобильному реагированию, доверьтесь профессионалам</p>
             <div class="row">
                 <!-- START CAROUSEL -->
-                <div id="servicesCarousel" class="carousel slide" data-ride="false">
+                <div id="servicesCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <!-- ============================ -->
@@ -471,28 +471,131 @@
     <!-- START EQUIPMENT SECTION -->
     <section id="equipment" class="my-5">
         <div class="container">
-            <h1 class="text-center">НАШЕ ОБОРУДОВАНИЕ</h1>
-            <!-- ========================== -->
+            <h1 class="text-center pb-5 mb-0">НАШЕ ОБОРУДОВАНИЕ</h1>
             <div class="row">
-                <div class="col-lg-5 col-xl-5">
-                    <img class="w-100" src="img/our-technology.jpg" alt="Our technology">
+                <div class="col-lg-3 col-xl-3 mb-5 indicators">
+                    <button class="btn main-btn d-block mx-auto px-5 active" data-target="#eqCarousel" data-slide-to="0">Дунай</button>
                 </div>
-                <div class="offset-lg-1 offset-xl-1 col-lg-6 col-xl-6">
-                    <h2>НАШЕ ОБОРУДОВАНИЕ</h2>
-                    <p>РАЗРАБОТКА СПЕЦИАЛИСТОВ, ПРОВЕРЕННАЯ ГОДАМИ</p>
-                    <ul class="list-unstyled mb-0 pl-0">
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Современный охранный комплекс собственной разработки «Дунай - 8L» или «Дунай - 4L»</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик движения и разбития</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик открывания дверей</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Аккумуляторная батарея 7 А / ч, 12 В</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Монтажный комплект</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Синхронизация со смартфоном</li>
-                        <li><img src="img/protect-icon.png" alt="Protect icon"> Установка «под ключ»</li>
-                    </ul>
-                    <button class="btn main-btn py-3 d-block mx-auto">+ Быть всегда под защитой</button>
+                <div class="col-lg-3 col-xl-3 mb-5 indicators">
+                    <button class="btn main-btn d-block mx-auto px-5 active" data-target="#eqCarousel" data-slide-to="1">AJAX</button>
+                </div>
+                <div class="col-lg-3 col-xl-3 mb-5 indicators">
+                    <button class="btn main-btn d-block mx-auto px-5 active" data-target="#eqCarousel" data-slide-to="2">GPS - Кнопка</button>
+                </div>
+                <div class="col-lg-3 col-xl-3 mb-5 indicators">
+                    <button class="btn main-btn d-block mx-auto px-5 active" data-target="#eqCarousel" data-slide-to="3">GPS - Часы</button>
+                </div>
+                <div id="eqCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#eqCarousel" data-slide-to="0" class="active">Дунай</li>
+                        <li data-target="#eqCarousel" data-slide-to="1">AJAX</li>
+                        <li data-target="#eqCarousel" data-slide-to="2">GPS - Кнопка</li>
+                        <li data-target="#eqCarousel" data-slide-to="3">GPS - Часы</li>
+                    </ol> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- START FIRST SLIDER   -->
+                            <!-- ================================= -->
+                            <div class="col-lg-5 col-xl-5">
+                                <img class="w-75 ml-auto d-block" src="img/our-technology.jpg" alt="Our technology">
+                            </div>
+                            <div class="offset-lg-1 offset-xl-1 col-lg-6 col-xl-6">
+                                <h2>НАШЕ ОБОРУДОВАНИЕ</h2>
+                                <p>РАЗРАБОТКА СПЕЦИАЛИСТОВ, ПРОВЕРЕННАЯ ГОДАМИ</p>
+                                <ul class="list-unstyled mb-0 pl-0">
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Современный охранный комплекс собственной разработки «Дунай - 8L» или «Дунай - 4L»</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик движения и разбития</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик открывания дверей</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Аккумуляторная батарея 7 А / ч, 12 В</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Монтажный комплект</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Синхронизация со смартфоном</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Установка «под ключ»</li>
+                                </ul>
+                                <button class="btn main-btn my-4 d-block">+ Быть всегда под защитой</button>
+                            </div>
+                            <!-- ========================== -->
+                            <!-- END FIRST SLIDER -->
+                        </div>
+                        <div class="carousel-item">
+                            <!-- START Second SLIDER   -->
+                            <!-- ================================= -->
+                            <div class="col-lg-5 col-xl-5">
+                                <img class="w-75 ml-auto d-block" src="img/ajax.jpg" alt="Ajax">
+                            </div>
+                            <div class="offset-lg-1 offset-xl-1 col-lg-6 col-xl-6">
+                                <h2>НАШЕ ОБОРУДОВАНИЕ</h2>
+                                <p>РАЗРАБОТКА СПЕЦИАЛИСТОВ, ПРОВЕРЕННАЯ ГОДАМИ</p>
+                                <ul class="list-unstyled mb-0 pl-0">
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Современный охранный комплекс собственной разработки «Дунай - 8L» или «Дунай - 4L»</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик движения и разбития</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик открывания дверей</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Аккумуляторная батарея 7 А / ч, 12 В</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Монтажный комплект</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Синхронизация со смартфоном</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Установка «под ключ»</li>
+                                </ul>
+                                <button class="btn main-btn my-4 d-block">+ Быть всегда под защитой</button>
+                            </div>
+                            <!-- ========================== -->
+                            <!-- END Second SLIDER -->
+                        </div>
+                        <div class="carousel-item">
+                            <!-- START Third SLIDER   -->
+                            <!-- ================================= -->
+                            <div class="col-lg-5 col-xl-5">
+                                <img class="w-75 ml-auto d-block" src="img/gps.jpg" alt="Gps">
+                            </div>
+                            <div class="offset-lg-1 offset-xl-1 col-lg-6 col-xl-6">
+                                <h2>НАШЕ ОБОРУДОВАНИЕ</h2>
+                                <p>РАЗРАБОТКА СПЕЦИАЛИСТОВ, ПРОВЕРЕННАЯ ГОДАМИ</p>
+                                <ul class="list-unstyled mb-0 pl-0">
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Современный охранный комплекс собственной разработки «Дунай - 8L» или «Дунай - 4L»</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик движения и разбития</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик открывания дверей</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Аккумуляторная батарея 7 А / ч, 12 В</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Монтажный комплект</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Синхронизация со смартфоном</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Установка «под ключ»</li>
+                                </ul>
+                                <button class="btn main-btn my-4 d-block">+ Быть всегда под защитой</button>
+                            </div>
+                            <!-- ========================== -->
+                            <!-- END Third SLIDER -->
+                        </div>
+                        <div class="carousel-item">
+                            <!-- START Firth SLIDER   -->
+                            <!-- ================================= -->
+                            <div class="col-lg-5 col-xl-5">
+                                <img class="w-75 ml-auto d-block" src="img/ajax.jpg" alt="Gps">
+                            </div>
+                            <div class="offset-lg-1 offset-xl-1 col-lg-6 col-xl-6">
+                                <h2>НАШЕ ОБОРУДОВАНИЕ</h2>
+                                <p>РАЗРАБОТКА СПЕЦИАЛИСТОВ, ПРОВЕРЕННАЯ ГОДАМИ</p>
+                                <ul class="list-unstyled mb-0 pl-0">
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Современный охранный комплекс собственной разработки «Дунай - 8L» или «Дунай - 4L»</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик движения и разбития</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Датчик открывания дверей</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Аккумуляторная батарея 7 А / ч, 12 В</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Монтажный комплект</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Синхронизация со смартфоном</li>
+                                    <li><img src="img/protect-icon.png" alt="Protect icon"> Установка «под ключ»</li>
+                                </ul>
+                                <button class="btn main-btn my-4 d-block">+ Быть всегда под защитой</button>
+                            </div>
+                            <!-- ========================== -->
+                            <!-- END Firth SLIDER -->
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#eqCarousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#eqCarousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-            <!-- ========================== -->
         </div>
     </section>
     <!-- START EQUIPMENT SECTION -->

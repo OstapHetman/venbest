@@ -266,6 +266,47 @@ header {
       display: block;
       visibility: visible; } }
 
+#equipment {
+  font-family: "Museo3"; }
+  #equipment .indicators button.active:focus {
+    background-color: unset;
+    color: #ff0655;
+    text-decoration: underline;
+    box-shadow: unset; }
+  #equipment h1 {
+    font-size: 3.125em;
+    color: #004d80;
+    text-transform: uppercase; }
+  #equipment h2 {
+    font-size: 2.3125em;
+    color: #004d80;
+    text-transform: uppercase; }
+  #equipment p {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    color: #ff0655; }
+  #equipment ul li {
+    margin-top: 15px;
+    font-size: 0.9375em;
+    text-transform: uppercase;
+    color: #004d80;
+    display: flex;
+    align-items: center; }
+    #equipment ul li img {
+      max-width: 40px;
+      margin-right: 10px; }
+  #equipment #eqCarousel .carousel-item-next,
+  #equipment #eqCarousel .carousel-item-prev,
+  #equipment #eqCarousel .carousel-item.active {
+    display: flex; }
+  #equipment #eqCarousel .carousel-control-prev,
+  #equipment #eqCarousel .carousel-control-next {
+    width: 9%; }
+    #equipment #eqCarousel .carousel-control-prev i,
+    #equipment #eqCarousel .carousel-control-next i {
+      color: #004d80;
+      font-size: 5em; }
+
 #pro-security {
   font-family: "Museo3"; }
   #pro-security h1 {
