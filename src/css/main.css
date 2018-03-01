@@ -135,6 +135,15 @@ header {
       max-width: 10.625em;
       height: auto; }
 
+#line {
+  background-color: #004c7f; }
+  #line h2 {
+    font-family: "Museo3";
+    font-size: 1.6875em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+
 footer .website-links li {
   font-family: "Museo1"; }
   footer .website-links li a {
