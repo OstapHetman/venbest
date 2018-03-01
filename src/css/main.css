@@ -268,11 +268,6 @@ header {
 
 #equipment {
   font-family: "Museo3"; }
-  #equipment .indicators button.active:focus {
-    background-color: unset;
-    color: #ff0655;
-    text-decoration: underline;
-    box-shadow: unset; }
   #equipment h1 {
     font-size: 3.125em;
     color: #004d80;

@@ -1,15 +1,5 @@
 #equipment {
     font-family: "Museo3";
-    .indicators {
-        button.active {
-            &:focus {
-                background-color: unset;
-                color: $sliderTilte;
-                text-decoration: underline;
-                box-shadow: unset;
-            }
-        }
-    }
     h1 {
         font-size: em(50);
         color: $mainTextColor;
