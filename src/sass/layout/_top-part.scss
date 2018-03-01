@@ -1,8 +1,24 @@
 #top-part {
+    letter-spacing: 1px;
+    h1 {
+        font-family: "Museo3";
+        font-size: em(17);
+        color: $mainTextColor;
+    }
+    img.logo {
+        max-width: em(123);
+        height: auto;
+    }
     .social-icons {
         img {
-            max-width: em(50);
             height: auto;
+        }
+    }
+    .phone-numbers {
+        p {
+            font-family: "Intro";
+            font-size: em(19);
+            color: $phoneTextColor;
         }
     }
 }

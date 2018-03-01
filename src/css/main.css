@@ -1,6 +1,141 @@
-#top-part .social-icons img {
-  max-width: 3.125em;
-  height: auto; }
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/Intro/Intro.otf") format("truetype"); }
 
-nav.navbar .collapse ul li a {
-  text-transform: uppercase; }
+@font-face {
+  font-family: "Museo0";
+  src: url("../fonts/MuseoSans/MuseoSansCyrl_0.otf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo1";
+  src: url("../fonts/MuseoSans/MuseoSansCyrl_1.otf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo2";
+  src: url("../fonts/MuseoSans/MuseoSansCyrl_2.otf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo3";
+  src: url("../fonts/MuseoSans/MuseoSansCyrl_3.otf") format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("../fonts/MuseoSans/MuseoSansCyrl.otf") format("truetype"); }
+
+button.main-btn {
+  font-family: "Museo2";
+  background-color: #ff0655;
+  color: #fff;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  border-radius: 10px; }
+
+#top-part {
+  letter-spacing: 1px; }
+  #top-part h1 {
+    font-family: "Museo3";
+    font-size: 1.0625em;
+    color: #004d80; }
+  #top-part img.logo {
+    max-width: 7.6875em;
+    height: auto; }
+  #top-part .social-icons img {
+    height: auto; }
+  #top-part .phone-numbers p {
+    font-family: "Intro";
+    font-size: 1.1875em;
+    color: #004a6f; }
+
+nav.navbar {
+  letter-spacing: 1px; }
+  nav.navbar .navbar-brand img {
+    max-width: 3.125em;
+    height: auto; }
+  nav.navbar button.btn {
+    font-family: "Museo2";
+    font-size: 1.4375em;
+    background: #ff066e;
+    background: linear-gradient(to right, #ff066e, #ca075c);
+    color: #fff;
+    border-radius: 10px; }
+  nav.navbar .collapse {
+    font-family: "Museo3"; }
+    nav.navbar .collapse ul li:nth-child(n) a:after {
+      content: '/';
+      display: inline-block;
+      margin-left: 15px;
+      color: #fbc0d3;
+      height: 100%;
+      font-size: 22px;
+      font-family: "MuseoSansCyrl"; }
+    nav.navbar .collapse ul li:nth-child(4) a:after {
+      visibility: hidden; }
+    nav.navbar .collapse ul li a {
+      text-transform: uppercase;
+      color: #004d80;
+      font-size: 1.4375em; }
+
+header {
+  background-color: #e8f7fe; }
+  header #headerCarousel ol.carousel-indicators li {
+    width: 0.8125em;
+    height: 0.8125em;
+    border-radius: 0.3125em; }
+    header #headerCarousel ol.carousel-indicators li:hover {
+      cursor: pointer; }
+  header #headerCarousel .carousel-item img {
+    max-height: 41.875em; }
+  header #headerCarousel i.fa {
+    font-size: 5em; }
+  header #headerCarousel .carousel-caption {
+    font-family: "Museo3";
+    top: 8%;
+    left: 5%; }
+    header #headerCarousel .carousel-caption h5 {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 3.5625em;
+      color: #0694ea; }
+      header #headerCarousel .carousel-caption h5:nth-child(2) {
+        color: #f10d54; }
+    header #headerCarousel .carousel-caption ul {
+      letter-spacing: 1px;
+      position: relative;
+      top: 8.5%;
+      left: 5%; }
+      header #headerCarousel .carousel-caption ul li {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        font-size: 1.625em; }
+        header #headerCarousel .carousel-caption ul li:before {
+          content: '';
+          width: 20px;
+          height: 20px;
+          margin-right: 15px;
+          background-color: #ff0655;
+          display: inline-block;
+          border-radius: 5px; }
+    header #headerCarousel .carousel-caption button.btn {
+      position: relative;
+      top: 22%;
+      display: block; }
+  header #headerCarousel .carousel-control-prev,
+  header #headerCarousel .carousel-control-next {
+    width: 9%; }
+  header .features {
+    letter-spacing: 1px;
+    font-family: "Museo3";
+    color: #004d80; }
+    header .features h2 {
+      font-size: 3.125em; }
+    header .features p {
+      font-size: 1.375em; }
+    header .features img {
+      max-width: 10.625em;
+      height: auto; }
+
+body {
+  font-family: "MuseoSansCyrl", sans-serif !important;
+  max-width: 120em;
+  margin: 0 auto; }

@@ -1,9 +1,47 @@
 nav.navbar {
+    letter-spacing: 1px;
+    .navbar-brand {
+        img {
+            max-width: em(50);
+            height: auto;
+        }
+    }
+    button.btn {
+        font-family: "Museo2";
+        font-size: em(23);
+        background: rgba(255, 6, 110, 1);
+        background: linear-gradient(to right, rgba(255, 6, 110, 1), rgba(202, 7, 92, 1));
+        color: #fff;
+        border-radius: 10px;
+    }
     .collapse {
+        font-family: "Museo3";
         ul {
             li {
+                &:nth-child(n) {
+                    a {
+                        &:after {
+                            content: '/';
+                            display: inline-block;
+                            margin-left: 15px;
+                            color: #fbc0d3;
+                            height: 100%;
+                            font-size: 22px;
+                            font-family: "MuseoSansCyrl";
+                        }
+                    }
+                }
+                &:nth-child(4) {
+                    a {
+                        &:after {
+                            visibility: hidden;
+                        }
+                    }
+                }
                 a {
                     text-transform: uppercase;
+                    color: $mainTextColor;
+                    font-size: em(23);
                 }
             }
         }

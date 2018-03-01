@@ -22,40 +22,42 @@
 
     <!-- START TOP PART OF NAVIGATION -->
     <section id="top-part" class="pt-4">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-xl-4 d-flex align-items-center">
+                <div class="col-md-6 col-lg-4 col-xl-4 d-flex align-items-center">
                     <div>
-                        <img src="img/venbest_logo.png" alt="Venbest Logo">
+                        <img class="logo" src="img/venbest_logo.png" alt="Venbest Logo">
                     </div>
-                    <div>
-                        <p class="mb-0">Центр безопасних систем по Киеву и области</p>
+                    <div class="pl-3">
+                        <h1 class="mb-0">Центр безопасных систем</h1>
+                        <h1 class="mb-0"> по Киеву и области</h1>
                     </div>
                 </div>
-                <div class="offset-xl-4 offset-lg-4 col-lg-4  col-xl-4 d-flex align-items-center">
+                <div class="col-md-6 offset-xl-3 offset-lg-3 col-lg-5  col-xl-5 d-flex align-items-center">
                     <div class="social-icons ml-auto">
-                        <img src="img/viber.png" alt="Viber">
-                        <img src="img/telegram.png" alt="Telegram">
-                        <img src="img/mobile.png" alt="Mobile">
+                        <img src="img/venbest_site.png" alt="Social Icons">
                     </div>
-                    <div class="phone-numbers">
-                        <p class="mb-0">+ 38(067) 637-03-27</p>
-                        <p class="mb-0">+ 38(067) 637-03-27</p>
+                    <div class="phone-numbers pl-3">
+                        <p class="mb-0">+ 38 (067) 637-03-27</p>
+                        <p class="mb-0">+ 38 (067) 637-03-27</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END TOP PART OF NAVIGATION -->
-    <nav class="navbar navbar-expand-md mb-4">
-        <div class="container">
+
+    <!-- START NAVIGATION -->
+    <nav class="navbar navbar-expand-md my-4 px-0">
+        <div class="container-fluid">
+            <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#"> <img src="img/venbest_logo.png" alt="Venbest Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <i class="fa fa-bars"></i>
+            </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Квартира</a>
+                    <li class="nav-item ">
+                        <a class="nav-link pl-0" href="#">Квартира</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Дом</a>
@@ -63,22 +65,115 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Защита от угона</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Бизнес</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Бизнес 1</a>
-                            <a class="dropdown-item" href="#">Бизнес 2</a>
-                            <a class="dropdown-item" href="#">Бизнес 3</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Бизнес</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-danger">Позвоните мне</button>
+                <button type="button" class="btn px-5 py-2">Позвоните мне</button>
             </div>
         </div>
     </nav>
-    <!-- START NAVIGATION -->
 
     <!-- END NAVIGATION -->
+
+    <!-- START <HEADER></HEADER> -->
+    <header>
+        <div class="container-fluid px-0">
+            <!-- START CAROUSEL -->
+            <div id="headerCarousel" class="carousel slide" data-ride="false">
+                <ol class="carousel-indicators">
+                    <li class="mr-3" data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+                    <li class="mr-3" data-target="#headerCarousel" data-slide-to="1"></li>
+                    <li class="mr-3" data-target="#headerCarousel" data-slide-to="2"></li>
+                    <li data-target="#headerCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/slide1.jpeg" alt="First slide">
+                        <div class="carousel-caption text-left">
+                            <h5>Oхрана вашего дома</h5>
+                            <h5>Как родного</h5>
+                            <ul class="list-unstyled">
+                                <li>Стоимость охрани от 299 грн/мес</li>
+                                <li>Современное оборудование</li>
+                            </ul>
+                            <button type="button" class="btn main-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide1.jpeg" alt="Second slide">
+                        <div class="carousel-caption text-left">
+                            <h5>Oхрана вашего дома</h5>
+                            <h5>Как родного</h5>
+                            <ul class="list-unstyled">
+                                <li>Стоимость охрани от 299 грн/мес</li>
+                                <li>Современное оборудование</li>
+                            </ul>
+                            <button type="button" class="btn main-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide1.jpeg" alt="Third slide">
+                        <div class="carousel-caption text-left">
+                            <h5>Oхрана вашего дома</h5>
+                            <h5>Как родного</h5>
+                            <ul class="list-unstyled">
+                                <li>Стоимость охрани от 299 грн/мес</li>
+                                <li>Современное оборудование</li>
+                            </ul>
+                            <button type="button" class="btn main-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/slide1.jpeg" alt="Fourth slide">
+                        <div class="carousel-caption text-left">
+                            <h5>Oхрана вашего дома</h5>
+                            <h5>Как родного</h5>
+                            <ul class="list-unstyled">
+                                <li>Стоимость охрани от 299 грн/мес</li>
+                                <li>Современное оборудование</li>
+                            </ul>
+                            <button type="button" class="btn main-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- END CAROUSEL -->
+            <div class="container py-4 features">
+                <div class="row py-5">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center pt-4">
+                        <img src="img/map.png" alt="Map">
+                        <h2 class="pt-5 mb-0">25 лет</h2>
+                        <p class="mb-0">работаем на ринке</p>
+                        <p class="mb-0">Украини</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center pt-4">
+                        <img src="img/security.png" alt="Security">
+                        <h2 class="pt-5 mb-0">47,454</h2>
+                        <p class="mb-0">обьектов под</p>
+                        <p class="mb-0">охраной</p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 text-center pt-4">
+                        <img src="img/24-hours.png" alt="24/7">
+                        <h2 class="pt-5 mb-0">24/7</h2>
+                        <p class="mb-0">24 часа в сутки на страже</p>
+                        <p class="mb-0">вашей безопасности</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+
     <!-- Latest compiled and minified JQuery -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

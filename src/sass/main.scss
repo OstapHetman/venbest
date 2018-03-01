@@ -1,13 +1,14 @@
 // ===== Base Folder====== //
 @import 'base/_typography';
 // ======================= //
-// ===== Components Folder====== //
-@import 'components/_buttons';
 // ======================= //
 // ===== Helpers Folder====== //
 @import 'helpers/_functions';
 @import 'helpers/_mixins';
+@import 'helpers/_variables';
 // ======================= //
+// ===== Components Folder====== //
+@import 'components/_buttons';
 // ===== Layout Folder====== //
 @import 'layout/_top-part';
 @import 'layout/_navigation';
@@ -17,3 +18,8 @@
 // ===== Pages Folder====== //
 @import 'pages/_home';
 // ======================= //
+body {
+    font-family: "MuseoSansCyrl", sans-serif !important;
+    max-width: em(1920);
+    margin: 0 auto;
+}
