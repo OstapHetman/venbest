@@ -1,0 +1,25 @@
+#services {
+    .first-item {
+        .text {
+            background: url(../img/slideItem-1.png) center;
+        }
+    }
+    .second-item {
+        .text {
+            background: url(../img/slideItem-2.png) center;
+        }
+    }
+    .third-item {
+        .text {
+            background: url(../img/slideItem-3.png) center;
+        }
+    }
+    #servicesCarousel {
+        margin: 0 auto;
+        .carousel-item-next,
+        .carousel-item-prev,
+        .carousel-item.active {
+            display: flex;
+        }
+    }
+}

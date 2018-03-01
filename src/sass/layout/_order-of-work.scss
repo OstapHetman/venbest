@@ -1,6 +1,7 @@
 #order-of-work {
-    background-color: #f9fcfd;
+    background-color: #e8f7fe;
     font-family: "Museo3";
+    min-height: 1420px;
     h1 {
         color: $mainTextColor;
         text-transform: uppercase;
@@ -16,16 +17,35 @@
             text-transform: uppercase;
         }
     }
-    .bottom-block {
-        background-color: $mainBgClr;
-        img {
-            max-width: 100px;
+    .relative-item-second {
+        border-left: 1px #1b5f8d solid;
+    }
+    .relative-item-first {
+        border-right: 1px #1b5f8d solid;
+    }
+    .relative-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        .bottom-block {
+            background-color: $mainBgClr;
+            img {
+                max-width: 100px;
+            }
+            p {
+                color: #fff;
+                margin-bottom: 0;
+                font-size: em(20);
+                text-transform: uppercase;
+            }
         }
-        p {
-            color: #fff;
-            margin-bottom: 0;
-            font-size: em(20);
-            text-transform: uppercase;
-        }
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    #order-of-work {
+        min-height: 1500px;
     }
 }

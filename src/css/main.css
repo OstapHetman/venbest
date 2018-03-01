@@ -135,9 +135,26 @@ header {
       max-width: 10.625em;
       height: auto; }
 
+#services .first-item .text {
+  background: url(../img/slideItem-1.png) center; }
+
+#services .second-item .text {
+  background: url(../img/slideItem-2.png) center; }
+
+#services .third-item .text {
+  background: url(../img/slideItem-3.png) center; }
+
+#services #servicesCarousel {
+  margin: 0 auto; }
+  #services #servicesCarousel .carousel-item-next,
+  #services #servicesCarousel .carousel-item-prev,
+  #services #servicesCarousel .carousel-item.active {
+    display: flex; }
+
 #order-of-work {
-  background-color: #f9fcfd;
-  font-family: "Museo3"; }
+  background-color: #e8f7fe;
+  font-family: "Museo3";
+  min-height: 1420px; }
   #order-of-work h1 {
     color: #004d80;
     text-transform: uppercase; }
@@ -149,18 +166,33 @@ header {
       font-size: 1.6875em;
       color: #004d80;
       text-transform: uppercase; }
-  #order-of-work .bottom-block {
-    background-color: #004c7f; }
-    #order-of-work .bottom-block img {
-      max-width: 100px; }
-    #order-of-work .bottom-block p {
-      color: #fff;
-      margin-bottom: 0;
-      font-size: 1.25em;
-      text-transform: uppercase; }
+  #order-of-work .relative-item-second {
+    border-left: 1px #1b5f8d solid; }
+  #order-of-work .relative-item-first {
+    border-right: 1px #1b5f8d solid; }
+  #order-of-work .relative-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    #order-of-work .relative-block .bottom-block {
+      background-color: #004c7f; }
+      #order-of-work .relative-block .bottom-block img {
+        max-width: 100px; }
+      #order-of-work .relative-block .bottom-block p {
+        color: #fff;
+        margin-bottom: 0;
+        font-size: 1.25em;
+        text-transform: uppercase; }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #order-of-work {
+    min-height: 1500px; } }
 
 #contacts {
-  font-family: "Museo3"; }
+  font-family: "Museo3";
+  margin-top: 225px; }
   #contacts h1 {
     font-size: 3.125em;
     color: #004d80;
