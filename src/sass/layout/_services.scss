@@ -54,5 +54,21 @@
         .carousel-item.active {
             display: flex;
         }
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 9%;
+            i {
+                color: $mainTextColor;
+                font-size: em(80);
+            }
+        }
+        .carousel-control-prev {
+            justify-content: flex-start;
+            left: -5%
+        }
+        .carousel-control-next {
+            justify-content: flex-end;
+            right: -5%;
+        }
     }
 }

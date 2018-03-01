@@ -177,6 +177,94 @@ header {
   #services #servicesCarousel .carousel-item-prev,
   #services #servicesCarousel .carousel-item.active {
     display: flex; }
+  #services #servicesCarousel .carousel-control-prev,
+  #services #servicesCarousel .carousel-control-next {
+    width: 9%; }
+    #services #servicesCarousel .carousel-control-prev i,
+    #services #servicesCarousel .carousel-control-next i {
+      color: #004d80;
+      font-size: 5em; }
+  #services #servicesCarousel .carousel-control-prev {
+    justify-content: flex-start;
+    left: -5%; }
+  #services #servicesCarousel .carousel-control-next {
+    justify-content: flex-end;
+    right: -5%; }
+
+#we-protect {
+  background-color: #e8f7fe; }
+  #we-protect h1 {
+    font-family: "Museo3";
+    text-transform: uppercase;
+    color: #004d80;
+    font-size: 3.125em; }
+  #we-protect #protectCarousel .carousel-control-prev,
+  #we-protect #protectCarousel .carousel-control-next {
+    width: 9%;
+    opacity: 1; }
+    #we-protect #protectCarousel .carousel-control-prev i,
+    #we-protect #protectCarousel .carousel-control-next i {
+      color: #fff;
+      font-size: 2.5em;
+      background-color: #004d80;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #we-protect #protectCarousel .carousel-control-prev i.fa-caret-left,
+      #we-protect #protectCarousel .carousel-control-next i.fa-caret-left {
+        padding-right: 7px; }
+      #we-protect #protectCarousel .carousel-control-prev i.fa-caret-right,
+      #we-protect #protectCarousel .carousel-control-next i.fa-caret-right {
+        padding-left: 7px; }
+
+@media (min-width: 768px) {
+  #we-protect #protectCarousel {
+    /* show 3 items */
+    /* left or forward direction */
+    /* farthest right hidden item must be abso position for animations */
+    /* right or prev direction */ }
+    #we-protect #protectCarousel .carousel-inner .active,
+    #we-protect #protectCarousel .carousel-inner .active + .carousel-item,
+    #we-protect #protectCarousel .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block; }
+    #we-protect #protectCarousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    #we-protect #protectCarousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    #we-protect #protectCarousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none; }
+    #we-protect #protectCarousel .carousel-inner .carousel-item-next,
+    #we-protect #protectCarousel .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0); }
+    #we-protect #protectCarousel .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible; }
+    #we-protect #protectCarousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    #we-protect #protectCarousel .carousel-item-next.carousel-item-left + .carousel-item,
+    #we-protect #protectCarousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    #we-protect #protectCarousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible; }
+    #we-protect #protectCarousel .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible; }
+    #we-protect #protectCarousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    #we-protect #protectCarousel .carousel-item-prev.carousel-item-right + .carousel-item,
+    #we-protect #protectCarousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    #we-protect #protectCarousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible; } }
 
 #order-of-work {
   background-color: #e8f7fe;
