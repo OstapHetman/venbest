@@ -135,6 +135,30 @@ header {
       max-width: 10.625em;
       height: auto; }
 
+#order-of-work {
+  background-color: #f9fcfd;
+  font-family: "Museo3"; }
+  #order-of-work h1 {
+    color: #004d80;
+    text-transform: uppercase; }
+  #order-of-work .work-item {
+    font-family: "Museo3"; }
+    #order-of-work .work-item img {
+      max-width: 80px; }
+    #order-of-work .work-item p {
+      font-size: 1.6875em;
+      color: #004d80;
+      text-transform: uppercase; }
+  #order-of-work .bottom-block {
+    background-color: #004c7f; }
+    #order-of-work .bottom-block img {
+      max-width: 100px; }
+    #order-of-work .bottom-block p {
+      color: #fff;
+      margin-bottom: 0;
+      font-size: 1.25em;
+      text-transform: uppercase; }
+
 #contacts {
   font-family: "Museo3"; }
   #contacts h1 {

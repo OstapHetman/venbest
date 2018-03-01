@@ -1,0 +1,31 @@
+#order-of-work {
+    background-color: #f9fcfd;
+    font-family: "Museo3";
+    h1 {
+        color: $mainTextColor;
+        text-transform: uppercase;
+    }
+    .work-item {
+        font-family: "Museo3";
+        img {
+            max-width: 80px;
+        }
+        p {
+            font-size: em(27);
+            color: $mainTextColor;
+            text-transform: uppercase;
+        }
+    }
+    .bottom-block {
+        background-color: $mainBgClr;
+        img {
+            max-width: 100px;
+        }
+        p {
+            color: #fff;
+            margin-bottom: 0;
+            font-size: em(20);
+            text-transform: uppercase;
+        }
+    }
+}
