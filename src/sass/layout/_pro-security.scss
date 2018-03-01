@@ -1,0 +1,38 @@
+#pro-security {
+    font-family: "Museo3";
+    h1 {
+        font-size: em(50);
+        color: $mainTextColor;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: em(22);
+        color: $sliderTilte;
+        img.header-image {
+            max-width: em(40);
+            height: auto;
+        }
+    }
+    .icon-item {
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .item {
+        h2 {
+            font-size: em(40);
+            text-align: center;
+        }
+        p {
+            font-size: em(13);
+            color: $mainTextColor;
+            text-align: center;
+        }
+        img {
+            max-width: 150px;
+        }
+    }
+    .under-head-text {
+        min-height: 80px;
+    }
+}

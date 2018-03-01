@@ -266,6 +266,34 @@ header {
       display: block;
       visibility: visible; } }
 
+#pro-security {
+  font-family: "Museo3"; }
+  #pro-security h1 {
+    font-size: 3.125em;
+    color: #004d80;
+    text-transform: uppercase; }
+  #pro-security h2 {
+    font-size: 1.375em;
+    color: #ff0655; }
+    #pro-security h2 img.header-image {
+      max-width: 2.5em;
+      height: auto; }
+  #pro-security .icon-item {
+    min-height: 200px;
+    display: flex;
+    align-items: center; }
+  #pro-security .item h2 {
+    font-size: 2.5em;
+    text-align: center; }
+  #pro-security .item p {
+    font-size: 0.8125em;
+    color: #004d80;
+    text-align: center; }
+  #pro-security .item img {
+    max-width: 150px; }
+  #pro-security .under-head-text {
+    min-height: 80px; }
+
 #order-of-work {
   background-color: #e8f7fe;
   font-family: "Museo3";
