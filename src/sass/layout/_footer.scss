@@ -1,0 +1,52 @@
+footer {
+    .website-links {
+        li {
+            font-family: "Museo1";
+            a {
+                color: $footerLinksClrOne;
+                font-size: em(15);
+                line-height: 33px;
+            }
+        }
+    }
+    .works-time {
+        li {
+            font-family: "Museo1";
+            font-size: em(15);
+            color: $footerLinksClrTwo;
+            &:nth-child(-n+2) {
+                color: $mainTextColor;
+            }
+        }
+    }
+    .phones-number {
+        font-family: "Museo3";
+        li {
+            font-size: em(20);
+            display: flex;
+            align-items: center;
+            a {
+                color: $mainTextColor;
+            }
+            img {
+                max-width: em(30);
+            }
+        }
+    }
+}
+
+#bottom-footer {
+    background-color: $bottomFooterBg;
+    p {
+        font-family: "Museo1";
+        font-size: em(10);
+        text-align: center;
+        margin-bottom: 0;
+        color: $mainTextColor;
+    }
+    a {
+        img {
+            max-width: em(35);
+        }
+    }
+}

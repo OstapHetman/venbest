@@ -15,10 +15,12 @@
         }
     }
     .phone-numbers {
-        p {
-            font-family: "Intro";
-            font-size: em(19);
-            color: $phoneTextColor;
+        li {
+            a {
+                font-family: "Intro";
+                font-size: em(19);
+                color: $phoneTextColor;
+            }
         }
     }
 }

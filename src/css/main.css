@@ -41,7 +41,7 @@ button.main-btn {
     height: auto; }
   #top-part .social-icons img {
     height: auto; }
-  #top-part .phone-numbers p {
+  #top-part .phone-numbers li a {
     font-family: "Intro";
     font-size: 1.1875em;
     color: #004a6f; }
@@ -134,6 +134,42 @@ header {
     header .features img {
       max-width: 10.625em;
       height: auto; }
+
+footer .website-links li {
+  font-family: "Museo1"; }
+  footer .website-links li a {
+    color: #5a5a5b;
+    font-size: 0.9375em;
+    line-height: 33px; }
+
+footer .works-time li {
+  font-family: "Museo1";
+  font-size: 0.9375em;
+  color: #a2a2a3; }
+  footer .works-time li:nth-child(-n+2) {
+    color: #004d80; }
+
+footer .phones-number {
+  font-family: "Museo3"; }
+  footer .phones-number li {
+    font-size: 1.25em;
+    display: flex;
+    align-items: center; }
+    footer .phones-number li a {
+      color: #004d80; }
+    footer .phones-number li img {
+      max-width: 1.875em; }
+
+#bottom-footer {
+  background-color: #e3e3e3; }
+  #bottom-footer p {
+    font-family: "Museo1";
+    font-size: 0.625em;
+    text-align: center;
+    margin-bottom: 0;
+    color: #004d80; }
+  #bottom-footer a img {
+    max-width: 2.1875em; }
 
 body {
   font-family: "MuseoSansCyrl", sans-serif !important;
