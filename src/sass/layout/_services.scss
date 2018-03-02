@@ -13,16 +13,22 @@
     .first-item {
         .text {
             background: url(../img/slideItem-1.png) center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
     .second-item {
         .text {
             background: url(../img/slideItem-2.png) center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
     .third-item {
         .text {
             background: url(../img/slideItem-3.png) center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
     .slide-item-title {
@@ -69,6 +75,80 @@
         .carousel-control-next {
             justify-content: flex-end;
             right: -5%;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+    #services {
+        #servicesCarousel {
+            .slide-item-title h3 {
+                font-size: 0.9em;
+            }
+            .text {
+                h4 {
+                    font-size: 1.1em;
+                }
+                ul {
+                    li {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+            button.main-btn {
+                font-size: 0.9em;
+            }
+            .carousel-control-prev {
+                left: 0;
+            }
+            .carousel-control-next {
+                right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    #services #servicesCarousel .carousel-item-next,
+    #services #servicesCarousel .carousel-item-prev,
+    #services #servicesCarousel .carousel-item.active {
+        flex-wrap: wrap;
+    }
+    #services {
+        #servicesCarousel {
+            p {
+                font-size: em(18);
+            }
+            .slide-item-title h3 {
+                font-size: 0.9em;
+            }
+            .text {
+                h4 {
+                    font-size: 1.1em;
+                }
+                ul {
+                    li {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+            button.main-btn {
+                font-size: 0.9em;
+                display: block;
+                margin: 0 auto;
+            }
+            .carousel-control-prev {
+                left: 0;
+                i {
+                    color: #ff0655
+                }
+            }
+            .carousel-control-next {
+                right: 0;
+                i {
+                    color: #ff0655;
+                }
+            }
         }
     }
 }

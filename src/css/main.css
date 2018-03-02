@@ -30,6 +30,14 @@ button.main-btn {
   letter-spacing: 1px;
   border-radius: 10px; }
 
+@media screen and (max-width: 767px) {
+  button.main-btn {
+    font-size: 0.9375em; } }
+
+@media screen and (max-width: 767px) {
+  h1.section-title {
+    font-size: 1.75em !important; } }
+
 #top-part {
   letter-spacing: 1px; }
   #top-part h1 {
@@ -46,10 +54,27 @@ button.main-btn {
     font-size: 1.1875em;
     color: #004a6f; }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #top-part h1 {
+    font-size: 0.875em; }
+  #top-part img.logo {
+    max-width: 6.25em;
+    height: auto; }
+  #top-part .social-icons img {
+    max-width: 7.5em;
+    height: auto; }
+  #top-part .phone-numbers li a {
+    font-size: 1em; } }
+
+@media screen and (max-width: 767px) {
+  #top-part .col-12 {
+    justify-content: center;
+    flex-wrap: wrap; } }
+
 nav.navbar {
   letter-spacing: 1px; }
   nav.navbar .navbar-brand img {
-    max-width: 3.125em;
+    max-width: 4.0625em;
     height: auto; }
   nav.navbar button.btn {
     font-family: "Museo2";
@@ -74,6 +99,16 @@ nav.navbar {
       text-transform: uppercase;
       color: #004d80;
       font-size: 1.4375em; }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  nav.navbar .collapse ul li:nth-child(n) a:after {
+    margin-left: 5px; }
+  nav.navbar .collapse ul li a {
+    font-size: 1em; }
+  nav.navbar button.btn {
+    font-size: 1em; }
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 0; } }
 
 header {
   background-color: #e8f7fe; }
@@ -135,6 +170,63 @@ header {
       max-width: 10.625em;
       height: auto; }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header #headerCarousel .carousel-caption {
+    top: 13%; }
+    header #headerCarousel .carousel-caption h5 {
+      font-size: 2em; }
+    header #headerCarousel .carousel-caption ul li {
+      font-size: 1.125em; }
+  header .features img {
+    max-width: 7.5em; }
+  header .features h2 {
+    font-size: 2.5em; }
+  header .features p {
+    font-size: 1.125em; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  header #headerCarousel .carousel-caption {
+    left: 15%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    header #headerCarousel .carousel-caption h5 {
+      font-size: 1.625em; }
+    header #headerCarousel .carousel-caption ul {
+      display: none; }
+  header .features img {
+    max-width: 7.5em; }
+  header .features h2 {
+    font-size: 2.5em; }
+  header .features p {
+    font-size: 1.125em; } }
+
+@media screen and (max-width: 575px) {
+  header #headerCarousel .carousel-caption {
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    header #headerCarousel .carousel-caption h5 {
+      font-size: 1.25em;
+      text-align: center; }
+    header #headerCarousel .carousel-caption ul {
+      display: none; }
+    header #headerCarousel .carousel-caption button.btn {
+      display: none; }
+  header #headerCarousel .carousel-control-prev,
+  header #headerCarousel .carousel-control-next {
+    display: none; }
+  header .features img {
+    max-width: 5em; }
+  header .features h2 {
+    font-size: 2.25em; }
+  header .features p {
+    font-size: 1em; } }
+
 #services h1 {
   font-family: "Museo3";
   color: #004d80;
@@ -147,13 +239,19 @@ header {
   font-size: 1.5625em; }
 
 #services .first-item .text {
-  background: url(../img/slideItem-1.png) center; }
+  background: url(../img/slideItem-1.png) center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #services .second-item .text {
-  background: url(../img/slideItem-2.png) center; }
+  background: url(../img/slideItem-2.png) center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #services .third-item .text {
-  background: url(../img/slideItem-3.png) center; }
+  background: url(../img/slideItem-3.png) center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #services .slide-item-title h3 {
   font-size: 1.25em;
@@ -191,6 +289,46 @@ header {
     justify-content: flex-end;
     right: -5%; }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #services #servicesCarousel .slide-item-title h3 {
+    font-size: 0.9em; }
+  #services #servicesCarousel .text h4 {
+    font-size: 1.1em; }
+  #services #servicesCarousel .text ul li {
+    font-size: 0.8em; }
+  #services #servicesCarousel button.main-btn {
+    font-size: 0.9em; }
+  #services #servicesCarousel .carousel-control-prev {
+    left: 0; }
+  #services #servicesCarousel .carousel-control-next {
+    right: 0; } }
+
+@media screen and (max-width: 767px) {
+  #services #servicesCarousel .carousel-item-next,
+  #services #servicesCarousel .carousel-item-prev,
+  #services #servicesCarousel .carousel-item.active {
+    flex-wrap: wrap; }
+  #services #servicesCarousel p {
+    font-size: 1.125em; }
+  #services #servicesCarousel .slide-item-title h3 {
+    font-size: 0.9em; }
+  #services #servicesCarousel .text h4 {
+    font-size: 1.1em; }
+  #services #servicesCarousel .text ul li {
+    font-size: 0.8em; }
+  #services #servicesCarousel button.main-btn {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 auto; }
+  #services #servicesCarousel .carousel-control-prev {
+    left: 0; }
+    #services #servicesCarousel .carousel-control-prev i {
+      color: #ff0655; }
+  #services #servicesCarousel .carousel-control-next {
+    right: 0; }
+    #services #servicesCarousel .carousel-control-next i {
+      color: #ff0655; } }
+
 #we-protect {
   background-color: #e8f7fe; }
   #we-protect h1 {
@@ -217,7 +355,7 @@ header {
       #we-protect #protectCarousel .carousel-control-next i.fa-caret-right {
         padding-left: 7px; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   #we-protect #protectCarousel {
     /* show 3 items */
     /* left or forward direction */
@@ -302,6 +440,25 @@ header {
       color: #004d80;
       font-size: 5em; }
 
+@media screen and (max-width: 767px) {
+  #equipment #eqCarousel .carousel-item {
+    margin-top: 35px; }
+    #equipment #eqCarousel .carousel-item .image-left {
+      display: none; }
+  #equipment #eqCarousel h2 {
+    font-size: 1.375em;
+    text-align: center; }
+  #equipment #eqCarousel p {
+    font-size: 1em;
+    text-align: center; }
+  #equipment #eqCarousel ul li {
+    font-size: 0.8125em; }
+    #equipment #eqCarousel ul li img {
+      max-width: 25px;
+      height: auto; }
+  #equipment #eqCarousel button.btn {
+    margin: 0 auto; } }
+
 #pro-security {
   font-family: "Museo3"; }
   #pro-security h1 {
@@ -330,10 +487,26 @@ header {
   #pro-security .under-head-text {
     min-height: 80px; }
 
+@media screen and (max-width: 767px) {
+  #pro-security h2 {
+    font-size: 0.875em; }
+  #pro-security img.header-image {
+    max-width: 1.5em; }
+  #pro-security .icon-item {
+    min-height: 150px; }
+  #pro-security .item img {
+    max-width: 100px; }
+  #pro-security .item h2 {
+    font-size: 1em; } }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #pro-security .under-head-text {
+    min-height: 96px; } }
+
 #order-of-work {
   background-color: #e8f7fe;
   font-family: "Museo3";
-  min-height: 1420px; }
+  min-height: 1371px; }
   #order-of-work h1 {
     color: #004d80;
     text-transform: uppercase; }
@@ -365,9 +538,43 @@ header {
         font-size: 1.25em;
         text-transform: uppercase; }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #order-of-work {
-    min-height: 1500px; } }
+    min-height: 1453px; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #order-of-work {
+    min-height: 906px; }
+    #order-of-work button.btn {
+      margin: 0 auto; }
+    #order-of-work .work-item img {
+      max-width: 60px; }
+    #order-of-work .work-item p {
+      font-size: 1.25em; }
+    #order-of-work .relative-block .bottom-block img {
+      max-width: 65px; }
+    #order-of-work .relative-block .bottom-block p {
+      font-size: 1em; } }
+
+@media screen and (max-width: 767px) {
+  #order-of-work {
+    min-height: unset; }
+    #order-of-work .relative-block {
+      position: static;
+      padding-bottom: 50px; }
+      #order-of-work .relative-block .bottom-block img {
+        max-width: 65px; }
+      #order-of-work .relative-block .bottom-block p {
+        font-size: 1em; }
+    #order-of-work .relative-item-first,
+    #order-of-work .relative-item-second {
+      border: 0; }
+    #order-of-work .work-item img {
+      max-width: 30px; }
+    #order-of-work .work-item p {
+      font-size: 0.875em; }
+    #order-of-work button.btn {
+      margin: 0 auto; } }
 
 #contacts {
   font-family: "Museo3";
@@ -383,6 +590,20 @@ header {
     color: #004d80;
     font-size: 1.25em; }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #contacts {
+    margin-top: 170px; }
+    #contacts img {
+      max-width: 6.25em; } }
+
+@media screen and (max-width: 767px) {
+  #contacts {
+    margin-top: 0; }
+    #contacts img {
+      max-width: 3.125em; }
+    #contacts ul li {
+      font-size: 0.875em; } }
+
 #line {
   background-color: #004c7f; }
   #line h2 {
@@ -391,6 +612,15 @@ header {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #line h2 {
+    text-align: center; } }
+
+@media screen and (max-width: 767px) {
+  #line h2 {
+    text-align: center;
+    font-size: 1.25em; } }
 
 footer .website-links li {
   font-family: "Museo1"; }
@@ -427,6 +657,10 @@ footer .phones-number {
     color: #004d80; }
   #bottom-footer a img {
     max-width: 2.1875em; }
+
+@media screen and (max-width: 575px) {
+  footer .phones-number li a {
+    font-size: 0.875em; } }
 
 body {
   font-family: "MuseoSansCyrl", sans-serif !important;

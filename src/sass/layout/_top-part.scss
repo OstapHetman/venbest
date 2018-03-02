@@ -24,3 +24,37 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #top-part {
+        h1 {
+            font-size: em(14);
+        }
+        img.logo {
+            max-width: em(100);
+            height: auto;
+        }
+        .social-icons {
+            img {
+                max-width: em(120);
+                height: auto;
+            }
+        }
+        .phone-numbers {
+            li {
+                a {
+                    font-size: em(16);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #top-part {
+        .col-12 {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}

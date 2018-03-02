@@ -1,7 +1,7 @@
 #order-of-work {
     background-color: #e8f7fe;
     font-family: "Museo3";
-    min-height: 1420px;
+    min-height: 1371px;
     h1 {
         color: $mainTextColor;
         text-transform: uppercase;
@@ -44,8 +44,68 @@
     }
 }
 
-@media screen and (min-width:992px) and (max-width: 1200px) {
+@media screen and (min-width:992px) and (max-width: 1199px) {
     #order-of-work {
-        min-height: 1500px;
+        min-height: 1453px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    #order-of-work {
+        min-height: 906px;
+        button.btn {
+            margin: 0 auto;
+        }
+        .work-item {
+            img {
+                max-width: 60px;
+            }
+            p {
+                font-size: em(20);
+            }
+        }
+        .relative-block {
+            .bottom-block {
+                img {
+                    max-width: 65px;
+                }
+                p {
+                    font-size: em(16);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    #order-of-work {
+        min-height: unset;
+        .relative-block {
+            position: static;
+            padding-bottom: 50px;
+            .bottom-block {
+                img {
+                    max-width: 65px;
+                }
+                p {
+                    font-size: em(16);
+                }
+            }
+        }
+        .relative-item-first,
+        .relative-item-second {
+            border: 0;
+        }
+        .work-item {
+            img {
+                max-width: 30px;
+            }
+            p {
+                font-size: em(14);
+            }
+        }
+        button.btn {
+            margin: 0 auto;
+        }
     }
 }

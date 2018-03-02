@@ -2,7 +2,7 @@ nav.navbar {
     letter-spacing: 1px;
     .navbar-brand {
         img {
-            max-width: em(50);
+            max-width: em(65);
             height: auto;
         }
     }
@@ -45,5 +45,32 @@ nav.navbar {
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    nav.navbar {
+        .collapse {
+            ul {
+                li {
+                    &:nth-child(n) {
+                        a {
+                            &:after {
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    a {
+                        font-size: em(16);
+                    }
+                }
+            }
+        }
+        button.btn {
+            font-size: em(16);
+        }
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0;
     }
 }

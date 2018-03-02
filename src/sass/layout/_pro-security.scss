@@ -36,3 +36,33 @@
         min-height: 80px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    #pro-security {
+        h2 {
+            font-size: em(14);
+        }
+        img.header-image {
+            max-width: 1.5em;
+        }
+        .icon-item {
+            min-height: 150px;
+        }
+        .item {
+            img {
+                max-width: 100px;
+            }
+            h2 {
+                font-size: em(16);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #pro-security {
+        .under-head-text {
+            min-height: 96px;
+        }
+    }
+}

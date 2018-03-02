@@ -80,3 +80,106 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        #headerCarousel {
+            .carousel-caption {
+                top: 13%;
+                h5 {
+                    font-size: em(32)
+                }
+                ul {
+                    li {
+                        font-size: em(18);
+                    }
+                }
+            }
+        }
+        // features
+        .features {
+            img {
+                max-width: em(120);
+            }
+            h2 {
+                font-size: em(40);
+            }
+            p {
+                font-size: em(18);
+            }
+        }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 767px) {
+    header {
+        #headerCarousel {
+            .carousel-caption {
+                left: 15%;
+                bottom: 15%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h5 {
+                    font-size: em(26)
+                }
+                ul {
+                    display: none;
+                }
+            }
+        }
+        // features
+        .features {
+            img {
+                max-width: em(120);
+            }
+            h2 {
+                font-size: em(40);
+            }
+            p {
+                font-size: em(18);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    header {
+        #headerCarousel {
+            .carousel-caption {
+                left: 12%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h5 {
+                    font-size: em(20);
+                    text-align: center;
+                }
+                ul {
+                    display: none;
+                }
+                button.btn {
+                    display: none;
+                }
+            }
+            .carousel-control-prev,
+            .carousel-control-next {
+                display: none;
+            }
+        }
+        // features
+        .features {
+            img {
+                max-width: em(80);
+            }
+            h2 {
+                font-size: em(36);
+            }
+            p {
+                font-size: em(16);
+            }
+        }
+    }
+}

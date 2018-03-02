@@ -1,10 +1,18 @@
-button {
-    &.main-btn {
-        font-family: "Museo2";
-        background-color: $mainBtnBg;
-        color: #fff;
-        font-size: em(20);
-        letter-spacing: 1px;
-        border-radius: 10px;
+    button {
+        &.main-btn {
+            font-family: "Museo2";
+            background-color: $mainBtnBg;
+            color: #fff;
+            font-size: em(20);
+            letter-spacing: 1px;
+            border-radius: 10px;
+        }
     }
-}
+    
+    @media screen and (max-width:767px) {
+        button {
+            &.main-btn {
+                font-size: em(15);
+            }
+        }
+    }
