@@ -46,6 +46,34 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #equipment {
+        #eqCarousel {
+            .carousel-item {
+                margin-top: 35px;
+            }
+            h2 {
+                font-size: em(22);
+            }
+            p {
+                font-size: em(16);
+            }
+            ul {
+                li {
+                    font-size: em(13);
+                    img {
+                        max-width: 25px;
+                        height: auto;
+                    }
+                }
+            }
+            button.btn {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 767px) {
     #equipment {
         #eqCarousel {

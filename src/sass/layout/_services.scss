@@ -115,6 +115,9 @@
         flex-wrap: wrap;
     }
     #services {
+        p {
+            font-size: em(15);
+        }
         #servicesCarousel {
             p {
                 font-size: em(18);

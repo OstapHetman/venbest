@@ -69,7 +69,12 @@ button.main-btn {
 @media screen and (max-width: 767px) {
   #top-part .col-12 {
     justify-content: center;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  #top-part .social-icons img {
+    max-width: 6.25em;
+    height: auto; }
+  #top-part .phone-numbers li a {
+    font-size: 0.875em; } }
 
 nav.navbar {
   letter-spacing: 1px; }
@@ -83,9 +88,11 @@ nav.navbar {
     background: linear-gradient(to right, #ff066e, #ca075c);
     color: #fff;
     border-radius: 10px; }
-  nav.navbar .collapse {
+  nav.navbar .collapse,
+  nav.navbar .collapsing {
     font-family: "Museo3"; }
-    nav.navbar .collapse ul li:nth-child(n) a:after {
+    nav.navbar .collapse ul li:nth-child(n) a:after,
+    nav.navbar .collapsing ul li:nth-child(n) a:after {
       content: '/';
       display: inline-block;
       margin-left: 15px;
@@ -93,9 +100,11 @@ nav.navbar {
       height: 100%;
       font-size: 22px;
       font-family: "MuseoSansCyrl"; }
-    nav.navbar .collapse ul li:nth-child(4) a:after {
+    nav.navbar .collapse ul li:nth-child(4) a:after,
+    nav.navbar .collapsing ul li:nth-child(4) a:after {
       visibility: hidden; }
-    nav.navbar .collapse ul li a {
+    nav.navbar .collapse ul li a,
+    nav.navbar .collapsing ul li a {
       text-transform: uppercase;
       color: #004d80;
       font-size: 1.4375em; }
@@ -109,6 +118,28 @@ nav.navbar {
     font-size: 1em; }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 0; } }
+
+@media screen and (max-width: 767px) {
+  nav.navbar .navbar-toggler {
+    outline: unset; }
+    nav.navbar .navbar-toggler i.fa.fa-bars {
+      font-size: 1.875em;
+      color: #004d80; }
+  nav.navbar .navbar-collapse ul {
+    display: flex;
+    align-items: center; }
+    nav.navbar .navbar-collapse ul li a {
+      font-size: 16px; }
+    nav.navbar .navbar-collapse ul li:nth-child(n) a:after {
+      content: ''; }
+  nav.navbar .navbar-collapse button.btn {
+    display: none; } }
+
+@media screen and (max-width: 575px) {
+  nav.navbar .navbar-brand {
+    padding-left: 15px; }
+  nav.navbar i.fa.fa-bars {
+    padding-right: 15px; } }
 
 header {
   background-color: #e8f7fe; }
@@ -308,6 +339,8 @@ header {
   #services #servicesCarousel .carousel-item-prev,
   #services #servicesCarousel .carousel-item.active {
     flex-wrap: wrap; }
+  #services p {
+    font-size: 0.9375em; }
   #services #servicesCarousel p {
     font-size: 1.125em; }
   #services #servicesCarousel .slide-item-title h3 {
@@ -439,6 +472,21 @@ header {
     #equipment #eqCarousel .carousel-control-next i {
       color: #004d80;
       font-size: 5em; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #equipment #eqCarousel .carousel-item {
+    margin-top: 35px; }
+  #equipment #eqCarousel h2 {
+    font-size: 1.375em; }
+  #equipment #eqCarousel p {
+    font-size: 1em; }
+  #equipment #eqCarousel ul li {
+    font-size: 0.8125em; }
+    #equipment #eqCarousel ul li img {
+      max-width: 25px;
+      height: auto; }
+  #equipment #eqCarousel button.btn {
+    margin: 0 auto; } }
 
 @media screen and (max-width: 767px) {
   #equipment #eqCarousel .carousel-item {
