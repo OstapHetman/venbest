@@ -30,8 +30,18 @@ button.main-btn {
   letter-spacing: 1px;
   border-radius: 10px; }
 
+button.main-btn2 {
+  font-family: "Museo2";
+  background-color: #004d80;
+  color: #fff;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  border-radius: 10px; }
+
 @media screen and (max-width: 767px) {
   button.main-btn {
+    font-size: 0.9375em; }
+  button.main-btn2 {
     font-size: 0.9375em; } }
 
 .scrolltop {
@@ -396,8 +406,66 @@ header {
     #services #servicesCarousel .carousel-control-next i {
       color: #ff0655; } }
 
-#solutions .text-part .prices .plan img {
-  max-width: 45px; }
+#solutions {
+  font-family: "Museo3";
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  #solutions .line-img {
+    margin-bottom: 100px; }
+  #solutions h1 {
+    font-size: 3.125em;
+    color: #004d80;
+    text-transform: uppercase; }
+  #solutions h2 {
+    font-size: 1.375em;
+    color: #004d80; }
+  #solutions .text-part {
+    background-color: #f6f7f7;
+    font-family: "Museo3"; }
+    #solutions .text-part h3 {
+      font-size: 2.0625em;
+      color: #004d80;
+      text-transform: uppercase; }
+    #solutions .text-part h4 {
+      font-size: 1.25em;
+      color: #ff0655;
+      text-transform: uppercase; }
+    #solutions .text-part .prices:before {
+      content: " ";
+      border-bottom: 2px solid #ebecec;
+      width: 365px;
+      position: absolute;
+      top: 50%; }
+    #solutions .text-part .prices .plan img {
+      max-width: 45px; }
+    #solutions .text-part .prices .plan p {
+      font-size: 0.6875em;
+      color: #004d80;
+      text-transform: uppercase; }
+    #solutions .text-part .prices .price {
+      font-size: 0.9375em;
+      text-transform: uppercase;
+      color: #ff0655; }
+    #solutions .text-part .buttons-block a {
+      font-family: "Museo2";
+      color: #004d80;
+      text-decoration: underline;
+      font-size: 1.375em;
+      text-transform: lowercase; }
+  #solutions #solutionsCarousel .carousel-item-next,
+  #solutions #solutionsCarousel .carousel-item-prev,
+  #solutions #solutionsCarousel .carousel-item.active {
+    display: flex; }
+  #solutions #solutionsCarousel .carousel-item.active,
+  #solutions #solutionsCarousel .carousel-item {
+    min-width: 1130px; }
+  #solutions #solutionsCarousel .carousel-control-prev,
+  #solutions #solutionsCarousel .carousel-control-next {
+    width: 9%; }
+    #solutions #solutionsCarousel .carousel-control-prev i,
+    #solutions #solutionsCarousel .carousel-control-next i {
+      color: #004d80;
+      font-size: 5em; }
 
 #we-protect {
   background-color: #e8f7fe; }
