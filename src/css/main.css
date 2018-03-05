@@ -396,6 +396,9 @@ header {
     #services #servicesCarousel .carousel-control-next i {
       color: #ff0655; } }
 
+#solutions .text-part .prices .plan img {
+  max-width: 45px; }
+
 #we-protect {
   background-color: #e8f7fe; }
   #we-protect h1 {
