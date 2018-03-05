@@ -1,7 +1,8 @@
     button {
         &.main-btn {
             font-family: "Museo2";
-            background-color: $mainBtnBg;
+            background: rgba(255, 6, 110, 1);
+            background: linear-gradient(to right, rgba(255, 6, 110, 1), rgba(202, 7, 92, 1));
             color: #fff;
             font-size: em(20);
             letter-spacing: 1px;
@@ -9,7 +10,8 @@
         }
         &.main-btn2 {
             font-family: "Museo2";
-            background-color: $mainTextColor;
+            background: rgba(0, 82, 141, 1);
+            background: linear-gradient(to right, rgba(0, 82, 141, 1), rgba(2, 129, 202, 1));
             color: #fff;
             font-size: em(20);
             letter-spacing: 1px;

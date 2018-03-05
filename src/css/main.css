@@ -24,7 +24,8 @@
 
 button.main-btn {
   font-family: "Museo2";
-  background-color: #ff0655;
+  background: #ff066e;
+  background: linear-gradient(to right, #ff066e, #ca075c);
   color: #fff;
   font-size: 1.25em;
   letter-spacing: 1px;
@@ -32,7 +33,8 @@ button.main-btn {
 
 button.main-btn2 {
   font-family: "Museo2";
-  background-color: #004d80;
+  background: #00528d;
+  background: linear-gradient(to right, #00528d, #0281ca);
   color: #fff;
   font-size: 1.25em;
   letter-spacing: 1px;
@@ -408,10 +410,10 @@ header {
 
 #solutions {
   font-family: "Museo3";
-  margin-top: 100px;
-  margin-bottom: 100px; }
+  margin-top: 60px;
+  margin-bottom: 120px; }
   #solutions .line-img {
-    margin-bottom: 100px; }
+    margin-bottom: 60px; }
   #solutions h1 {
     font-size: 3.125em;
     color: #004d80;
@@ -473,7 +475,7 @@ header {
     font-family: "Museo3";
     text-transform: uppercase;
     color: #004d80;
-    font-size: 3.125em; }
+    font-size: 2.25em; }
   #we-protect #protectCarousel .carousel-control-prev,
   #we-protect #protectCarousel .carousel-control-next {
     width: 9%;
@@ -632,6 +634,7 @@ header {
     font-size: 2.5em;
     text-align: center; }
   #pro-security .item p {
+    font-family: "MuseoSansCyrl";
     font-size: 0.8125em;
     color: #004d80;
     text-align: center; }
@@ -659,16 +662,16 @@ header {
 #order-of-work {
   background-color: #e8f7fe;
   font-family: "Museo3";
-  min-height: 1371px; }
+  min-height: 1075px; }
   #order-of-work h1 {
     color: #004d80;
     text-transform: uppercase; }
   #order-of-work .work-item {
     font-family: "Museo3"; }
     #order-of-work .work-item img {
-      max-width: 80px; }
+      max-width: 60px; }
     #order-of-work .work-item p {
-      font-size: 1.6875em;
+      font-size: 1.5em;
       color: #004d80;
       text-transform: uppercase; }
   #order-of-work .relative-item-second {
@@ -693,7 +696,7 @@ header {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   #order-of-work {
-    min-height: 1453px; } }
+    min-height: 1140px; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #order-of-work {
